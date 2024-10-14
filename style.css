@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#Buttonuchun {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#Buttonuchun:hover {
+    background-color: rgb(4, 70, 4);
+}
